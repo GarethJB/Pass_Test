@@ -1,6 +1,9 @@
 .text-bar {width: 300px;}
-
 .dis-flex {display: flex;}
+.text-bold {font-weight: bold;}
+.underline {border-bottom: 3px solid #78C07F;}
+
+
 
 html,
 body {
