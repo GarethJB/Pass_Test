@@ -16,11 +16,10 @@
         <img class="mb-4" src="../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">합격자 조회</h1>
         <label for="inputName" class="sr-only"></label>
-        <input type="text" id="inputName" class="form-control" placeholder="이름을 입력하세요" required>
+        <input type="text" id="inputName" class="form-control mt-5" placeholder="이름을 입력하세요" required>
         <label for="inputBirth" class="sr-only">Password</label>
-        <input type="text" id="inputBirth" class="form-control" placeholder="생년월일 (예 : 19910920)" maxlength="8" required>
-        <button class="btn btn-lg btn-primary btn-block" type="submit" id="submit">조회하기</button>
-        <p class="mt-5 mb-3 text-muted">&copy; 2017-2022</p>
+        <input type="text" id="inputBirth" class="form-control mt-1" placeholder="생년월일 (예 : 19910920)" maxlength="8" required>
+        <button class="btn btn-lg btn-primary btn-block mt-3" type="submit" id="submit">조회하기</button>
       </form>
 
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -51,7 +50,7 @@
 		
 		if (acc == "박진선" && pass == "19951203") {
 			alert("로그인되셨습니다.");
-			location.href = 'www.naver.com';
+			location.href = 'https://www.naver.com/';
 		} else {
 			alert("성명, 또는 생년월일이 잘못되었습니다.")
 		}
