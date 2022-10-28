@@ -16,10 +16,10 @@
         <img class="mb-4" src="../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal text-center">합격자 조회</h1>
         <label for="inputName" class="sr-only"></label>
-        <input type="text" id="inputName" class="form-control mt-4" placeholder="이름을 입력하세요" required>
+        <input type="text" id="inputName" class="form-control mt-4" placeholder="이름" required>
         <label for="inputBirth" class="sr-only">Password</label>
         <input type="text" id="inputBirth" class="form-control mt-1" placeholder="생년월일 (예 : 19910920)" maxlength="8" required>
-        <button class="btn btn-lg btn-primary btn-block mt-3" type="submit" id="submit">조회하기</button>
+        <button class="btn btn-lg btn-primary btn-block btn-1 mt-3 mx-auto" type="submit" id="submit">조회하기</button>
       </form>
 
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -52,7 +52,7 @@
 			alert(acc + "님은 합격하셨습니다.");
 			location.href = 'https://www.naver.com/';
 		} else {
-			alert("응시자 정보를 조회할 수 없습니다." + "\n\n" + "성명 : " + acc + "\n" + "생년월일 : " + pass)
+			alert("응시자 정보를 조회할 수 없습니다." + "\n\n" + acc + "\n" + pass)
 		}
 		
 	})
