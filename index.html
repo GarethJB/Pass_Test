@@ -9,12 +9,14 @@
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
 </head>
 <body>
     <form class="form-signin">
-        <img class="mb-4" src="../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-        <h1 class="h3 mb-3 font-weight-normal text-center">합격자 조회</h1>
+        <img class="mb-2 mx-auto" src="logos.png" alt="NH농협은행" width="300px">
+        <h1 class="h3 mb-3 mt-3 font-weight-bold text-center">정규직 신입행원 채용</h1>
+        <h1 class="h4 mb-3 font-weight-bold text-center">2차(필기) 전형 합격자 조회</h1>
         <label for="inputName" class="sr-only"></label>
         <input type="text" id="inputName" class="form-control mt-4" placeholder="이름" required>
         <label for="inputBirth" class="sr-only">Password</label>
@@ -48,8 +50,8 @@
 		let acc = $("#inputName").val();
 		let pass = $("#inputBirth").val();
 		
-		if (acc == "박진선" && pass == "19951203") {
-			alert(acc + "님은 합격하셨습니다.");
+		if (acc == "윤주영" && pass == "19941203") {
+			alert("응시자 정보 조회에 성공했습니다." + "\n\n" + acc + "\n" + pass);
 			location.href = 'pass.html';
 		} else {
 			alert("응시자 정보를 조회할 수 없습니다." + "\n\n" + acc + "\n" + pass)

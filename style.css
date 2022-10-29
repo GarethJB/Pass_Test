@@ -1,8 +1,8 @@
 .text-bar {width: 300px;}
 .dis-flex {display: flex;}
 .text-bold {font-weight: bold;}
-.underline {border-bottom: 3px solid #78C07F;}
-
+.underline {border-bottom: 3px solid #124FB0;}
+.color-bank {color: #124FB0;}
 
 
 html,
